@@ -13,50 +13,51 @@
 <body>
   <section class="contact max-length pad-t-2 pad-b-2 xs-1 s-1 m-1 l-1">
     <div class="gutter">
-      <h1 class="not-bold">Want to go to Mars?</h1>
+      <h1>Want to go to Mars?</h1>
       <p class="mega">We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
 
       <form class="grid" method="POST" action="https://formspree.io/norrissarah33@outlook.com">
 
-        <fieldset class="push">
+        <fieldset class="max-length push ">
           <legend class="unit push italic giga">Personal details</legend>
-
-          <div class="unit push xs-1 s-1 m-1 l-1-2">
-            <label for="name">Name</label>
-            <input id="name" name="name">
-          </div>
-          <div class="unit push xs-1 s-1 m-1 l-1-2">
-            <label for="age">Age</label>
-            <input id="age" name="age">
-          </div>
-          <div class="unit push xs-1 s-1 m-1 l-1-2">
-            <label for="email">Email</label>
-            <input id="email" name="email">
-            <input type="hidden" name="subject" value="Request to join the mission">
-          </div>
-          <div class="unit push xs-1 s-1 m-1 l-1-2">
-            <label for="fitness">Physical fitness</label>
-            <select id="fitness" name="fitness">
-              <option>Super-human</option>
-              <option>Fit as a fiddle</option>
-              <option> Not terribly strong</option>
-              <option>A little couch-potato-y</option>
-            </select>
-          </div>
-          <div class="unit push xs-1 s-1 m-1 l-1">
-            <label for="address">Address</label>
-            <textarea id="address" name="address"></textarea>
+          <div class="grid">
+            <div class="name unit push-1-2 xs-1 s-1 m-1 l-1-2">
+              <label for="name">Name</label>
+              <input id="name" name="name">
+            </div>
+            <div class="age unit push-1-2 xs-1 s-1 m-1 l-1-2">
+              <label for="age">Age</label>
+              <input id="age" name="age">
+            </div>
+            <div class="email unit push-1-2 xs-1 s-1 m-1 l-1-2">
+              <label for="email">Email</label>
+              <input id="email" name="email">
+              <input type="hidden" name="subject" value="Request to join the mission">
+            </div>
+            <div class="fitness unit push-1-2 xs-1 s-1 m-1 l-1-2">
+              <label for="fitness">Physical fitness</label>
+              <select id="fitness" name="fitness">
+                <option>Super-human</option>
+                <option>Fit as a fiddle</option>
+                <option> Not terribly strong</option>
+                <option>A little couch-potato-y</option>
+              </select>
+            </div>
+            <div class="unit push-1-2 xs-1 s-1 m-1 l-1">
+              <label for="address">Address</label>
+              <textarea id="address" name="address"></textarea>
+            </div>
           </div>
         </fieldset>
 
-        <fieldset>
-          <legend class="unit push italic giga">Mission statement</legend>
+        <fieldset class="max-length">
+          <legend class="unit italic giga">Mission statement</legend>
 
-          <div class="unit push">
+          <div class="max-length unit xs-1 s-1 m-1 l-1 push">
             <label for="why-mars">Why do you want to go to Mars?</label>
             <textarea id="why-mars" name="why-mars"></textarea>
           </div>
-          <div class="unit unit-content-center">
+          <div class="unit unit-content-center xs-1 s-1 m-1 l-1">
             <button class="btn" type="submit">Register for the trip!</button>
           </div>
         </fieldset>
